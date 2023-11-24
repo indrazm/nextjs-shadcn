@@ -6,8 +6,14 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Role {
+  ADMIN
+  USER
 }
 
 model User {
@@ -15,6 +21,8 @@ model User {
   email     String   @unique
   name      String?
   password  String
+  image     String?
+  role      Role     @default(USER)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
