@@ -3,5 +3,5 @@
   "singleQuote": true,
   "trailingComma": "all",
   "semi": true,
-  "plugins": ["prettier-plugin-tailwindcss", "simple-import-sort", "import"]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
