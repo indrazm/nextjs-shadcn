@@ -21,6 +21,7 @@
     "react/button-has-type": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-one-expression-per-line": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {

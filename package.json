@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "jotai": "^2.5.1",
     "lucide-react": "^0.292.0",
     "next": "14.0.3",
     "next-auth": "^4.24.5",
